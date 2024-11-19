@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <button id="menu_btn"><img src="./img/bars-solid.svg" alt="menu-icon"></button>
+      <div>
+        <span>Hello Evano 👋🏼</span>
+      </div>
+    </header>
+    <nav id="nav_mob">
+      <div>
+        <div class="nav_title">
+          <img src="./img/nav_title_img.svg" alt="">
+          <div>
+            <span>Dashboard</span>
+            <span>v01</span>
+          </div>
+        </div>
+        <ul class="nav_list">
+          <li>
+            <a href="#">
+              <img src="./img/menu_icons/key-square.svg" alt="Dashboard Icon"> Dashboard
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="#">
+              <div>
+                <img src="./img/menu_icons/product.svg" alt="Product Icon">
+                Product
+              </div>
+              <img src="./img/chevron-right-solid.svg" alt="chevron-right" class="menu_chevron_right">
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">
+              <div><img src="./img/menu_icons/customers.svg" alt="Customers Icon"> Customers</div>
+              <img src="./img/chevron-right-solid.svg" alt="chevron-right" class="menu_chevron_right">
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">
+              <div><img src="./img/menu_icons/income.svg" alt="Income Icon"> Income</div><img
+                src="./img/chevron-right-solid.svg" alt="chevron-right" class="menu_chevron_right">
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">
+              <div><img src="./img/menu_icons/promote.svg" alt="Promote Icon"> Promote</div><img
+                src="./img/chevron-right-solid.svg" alt="chevron-right" class="menu_chevron_right">
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">
+              <div><img src="./img/menu_icons/help.svg" alt="Help Icon"> Help</div><img
+                src="./img/chevron-right-solid.svg" alt="chevron-right" class="menu_chevron_right">
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="manager_info">
+        <img src="./img/avatar.png" alt="avatar">
+        <div>
+          <span>Evano</span>
+          <span>Project Mnager</span>
+        </div>
+      </div>
+    </nav>
+   
+    <section class="table_container">
+      <div class="table_title_hd">Hello Evano 👋🏼</div>
+      <div class="table_wrapper">
+        <div class="table_title">
+          <div class="table_title_left_part">
+            <span>All customers</span>
+            <span>Active members</span>
+          </div>
+          <div class="input_search_container">
+            <img src="./img/search.svg" alt="">
+            <input type="text" name="search" id="search" placeholder="Search">
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Customer name</th>
+              <th>Company</th>
+              <th>Phone number</th>
+              <th>Email</th>
+              <th>Country</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+
+          </tbody>
+        </table>
+        <div class="table_nav">
+          <div class="pagination_text"></div>
+          <div class="pagination"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
